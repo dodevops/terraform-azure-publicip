@@ -23,3 +23,9 @@ variable "suffix" {
   description = "ip address name suffix"
   default     = ""
 }
+
+variable "sku" {
+  type        = string
+  description = "The SKU used for this ip"
+  default     = "Standard"
+}
