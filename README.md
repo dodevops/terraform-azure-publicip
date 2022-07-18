@@ -68,6 +68,14 @@ Type: `string`
 
 The following input variables are optional (have default values):
 
+### sku
+
+Description: The SKU used for this ip
+
+Type: `string`
+
+Default: `"Standard"`
+
 ### suffix
 
 Description: ip address name suffix
